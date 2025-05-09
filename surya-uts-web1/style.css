@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    background-color: #f4f6f9;
+    overflow-x: hidden;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -220px;
+    width: 220px;
+    height: 100%;
+    background-color: #0d6efd;
+    transition: left 0.3s ease;
+    z-index: 1000;
+    padding-top: 3rem;
+  }
+  
+  .sidebar.active {
+    left: 0;
+  }
+  
+  .sidebar a {
+    color: white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .sidebar a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .info-kecil {
+    display: block;
+    text-align: center;
+    color: #6c757d;
+    margin-top: 0px;
+    margin-bottom: 0;
+  }
+
+  /* Wrapper untuk semua konten */
+  .page-wrapper {
+    transition: all 0.3s ease;
+    margin-left: 0;
+    width: 100%;
+  }
+  
+  .page-wrapper.shifted {
+    margin-left: 220px;
+    width: calc(100% - 220px);
+  }
+  
+  /* Judul */
+  .judul-section {
+    background-color: #4a90e2;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Hover efek */
+  .card:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+  }
+  

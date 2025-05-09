@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wisata Indonesia</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- sidebar.html -->
+<div id="sidebar" class="sidebar">
+  <h5 class="text-white text-center py-3">Navigasi</h5>
+  <ul class="list-unstyled ps-3">
+    <li><a href="/surya-uts-web1/index.html">Home</a></li>
+    <li><a href="/surya-uts-web1/wisata_edukasi.html">Wisata Edukasi</a></li>
+    <li><a href="/surya-uts-web1/wisata_taman_hiburan.html">Wisata Taman Hiburan</a></li>
+    <li><a href="/surya-uts-web1/wisata_botani.html">Wisata Botani</a></li>
+    <li><a href="/surya-uts-web1/wisata_margasatwa.html">Wisata MargaSatwa</a></li>
+  </ul>
+</div>
+  <!-- Bungkus semua konten agar bisa digeser -->
+  <div id="page-wrapper" class="page-wrapper">
+
+    <!-- Navbar -->
+    <nav class="navbar bg-light shadow-sm">
+      <div class="container-fluid">
+        <button class="btn btn-outline-primary" onclick="toggleSidebar()">☰</button>
+        <span class="navbar-brand mx-auto fw-bold">PROJECT UTS PEMROGRAMAN WEB I</span>
+      </div>
+    </nav>
+
+    <!-- Info kecil -->
+    <small class="info-kecil">
+        ASEP SURYA AGUSTIN - 221011450392 - 05TPLE004
+      </small>
+
+    <!-- Judul -->
+    <div class="judul-section">
+      WISATA EDUKASI DI BOGOR
+    </div>
+    
+<!-- Deskripsi Wisata Edukasi -->
+<div class="container my-4">
+  <p style="text-align: justify;">
+    Bogor dikenal sebagai kota hujan yang nggak cuma indah alamnya, tapi juga punya banyak pilihan wisata edukatif yang cocok buat keluarga dan pelajar. Tempat-tempat ini menggabungkan hiburan dengan pengetahuan, jadi bisa belajar sambil jalan-jalan seru!
+  </p>
+  <ul>
+    <li><a href="https://inagro.co.id" target="_blank" rel="noopener noreferrer">INAGRO</a></li>
+    <li><a href="https://www.kebunrayabogor.or.id/" target="_blank" rel="noopener noreferrer">Kebun Raya Bogor</a></li>
+    <li><a href="https://museum-bogor.lipi.go.id/" target="_blank" rel="noopener noreferrer">Museum Zoologi</a></li>
+    <li><a href="https://www.tamansafari.com/bogor/" target="_blank" rel="noopener noreferrer">Taman Safari Indonesia</a></li>
+    <li><a href="https://kuntumfarmfield.com/" target="_blank" rel="noopener noreferrer">Kuntum Farmfield</a></li>
+    <li><a href="https://skystarastronomy.com/" target="_blank" rel="noopener noreferrer">Planetarium & Observatorium Bosscha (Bogor Mini)</a></li>
+    <li><a href="https://ipb.ac.id/page/about" target="_blank" rel="noopener noreferrer">Kawasan Kampus IPB dan Eduwisata Agromaritim</a></li>
+  </ul>
+</div>
+
+
+
+  <script>
+    function toggleSidebar() {
+      document.getElementById('sidebar').classList.toggle('active');
+      document.getElementById('page-wrapper').classList.toggle('shifted');
+    }
+  </script>
+
+</body>
+</html>
