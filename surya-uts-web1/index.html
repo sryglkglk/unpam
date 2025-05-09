@@ -95,25 +95,6 @@
       </div>
     </div>
 
-  <!-- Elfsight Audio Player | Untitled Audio Player -->
-<script>
-  let firstClickTriggered = false;
-
-  document.addEventListener('click', function () {
-    if (firstClickTriggered) return;
-    firstClickTriggered = true;
-
-    // Tunggu widgetnya kebuka dan siap
-    const tryClickPlay = setInterval(() => {
-      // Ubah selector sesuai struktur Elfsight setelah load
-      const playButton = document.querySelector('.elfsight-app button');
-      if (playButton) {
-        playButton.click(); // auto klik tombol play-nya
-        clearInterval(tryClickPlay);
-      }
-    }, 500); // coba tiap 500ms
-  });
-</script>
 
 <!-- Elfsight Audio Player | SABILULUNGAN -->
 <script src="https://static.elfsight.com/platform/platform.js" async></script>
