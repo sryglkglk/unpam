@@ -54,7 +54,11 @@
             const pekan = data.pekan_ini;
             const strongPekan = document.querySelector('#periode-pekan strong');
             if (strongPekan && pekan) {
-              strongPekan.textContent = `Pekan ke-${pekan}`;
+              // Format waktu sekarang
+              const now = new Date();
+              const hari = now.toLocaleDateString('id-ID', { weekday: 'long' });
+              const tanggal = now.toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' });
+              strongPekan.textContent = `Pekan ke-${pekan} -- [${hari}, ${tanggal}]`;
             }
           })
           .catch(err => {
