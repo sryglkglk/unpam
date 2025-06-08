@@ -36,9 +36,26 @@
     <div class="hero-content">
       <h1 data-aos="fade-up">Aplikasi Sistem Informasi Kelas</h1>
       <p data-aos="fade-up" data-aos-delay="200">Jadi yang terbaik dengan cara ASIK</p>
-      <a href="#pekan" class="btn btn-primary" data-aos="fade-up" data-aos-delay="400">Lihat Info</a>
+      <a href="#pekan" class="btn btn-primary" data-aos="fade-up" data-aos-delay="400">Let's Go!</a>
     </div>
   </section>
+              <div id="tanggal-hari" style="text-align:center; font-weight:bold; margin-top:10px;"></div>
+              <div id="jam-sekarang" style="text-align:center; font-size:1.5em; color:#fff; font-weight:bold; text-shadow:0 1px 4px #222;"></div>
+              <script>
+                function updateTanggalJam() {
+                  const now = new Date();
+                  const hari = now.toLocaleDateString('id-ID', { weekday: 'long' });
+                  const tanggal = now.toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' });
+                  document.getElementById('tanggal-hari').textContent = `[ ${hari}, ${tanggal} ]`;
+
+                  // Format jam: [22:30]
+                  const jam = now.getHours().toString().padStart(2, '0');
+                  const menit = now.getMinutes().toString().padStart(2, '0');
+                  document.getElementById('jam-sekarang').textContent = `[ ${jam}:${menit} ]`;
+                }
+                updateTanggalJam();
+                setInterval(updateTanggalJam, 1000);
+              </script>
 
   <!-- Konten Utama -->
   <div id="main" class="main-content container">
@@ -55,10 +72,7 @@
             const strongPekan = document.querySelector('#periode-pekan strong');
             if (strongPekan && pekan) {
               // Format waktu sekarang
-              const now = new Date();
-              const hari = now.toLocaleDateString('id-ID', { weekday: 'long' });
-              const tanggal = now.toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' });
-              strongPekan.textContent = `Pekan ke-${pekan} -- [${hari}, ${tanggal}]`;
+              strongPekan.textContent = `Pekan ke-${pekan}`;
             }
           })
           .catch(err => {
