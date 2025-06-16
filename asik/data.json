@@ -1,8 +1,8 @@
 {
     "pekan_ini": "XII",
 
-    "pertemuan_2sks" : "P12",
-    "pertemuan_3sks" : "P17, P18",
+    "pertemuan_2sks" : "P13",
+    "pertemuan_3sks" : "P19",
 
     "ketua": {
         "nama"      : "data tidak tersedia",
@@ -19,7 +19,7 @@
         "sks"       : "2",
         "jadwal"    : "Online",
         "link"      : "https://mentari.unpam.ac.id",
-        "deadline"  : "[2025-06-06, 23:59:59]"
+        "deadline"  : "[2025-06-21, 23:59:59]"
     },
 
     "mk.2": {
@@ -29,7 +29,7 @@
         "sks"       : "2",
         "jadwal"    : "Online",
         "link"      : "https://mentari.unpam.ac.id",
-        "deadline"  : "[2025-06-06, 23:59:59]"
+        "deadline"  : "[2025-06-22, 23:59:59]"
     },
 
     "mk.3": {
@@ -39,7 +39,7 @@
         "sks"       : "3",
         "jadwal"    : "Online",
         "link"      : "https://mentari.unpam.ac.id",
-        "deadline"  : "[2025-06-06, 23:59:59]"
+        "deadline"  : "[2025-06-23, 23:59:59]"
     },
 
     "mk.4": {
@@ -49,7 +49,7 @@
         "sks"       : "3",
         "jadwal"    : "Online",
         "link"      : "https://mentari.unpam.ac.id",
-        "deadline"  : "[2025-06-06, 23:59:59]"
+        "deadline"  : "[2025-06-24, 23:59:59]"
     },
 
     "mk.5": {
@@ -59,7 +59,7 @@
         "sks"       : "2",
         "jadwal"    : "Offline",
         "link"      : "https://mentari.unpam.ac.id",
-        "deadline"  : "[2025-06-06, 23:59:59]"
+        "deadline"  : "[2025-06-22, 23:59:59]"
     },
     
     "mk.6": {
@@ -77,9 +77,9 @@
         "alias"     : "WEB I",
         "dosen"     : "GALUH SAPUTRI, S.Kom., M.Kom.",
         "sks"       : "3",
-        "jadwal"    : "Offline, Online",
+        "jadwal"    : "Offline",
         "link"      : "https://mentari.unpam.ac.id",
-        "deadline"  : "[2025-06-06, 23:59:59]"
+        "deadline"  : "[2025-06-21, 23:59:59]"
     },
 
     "mk.8": {
@@ -87,25 +87,25 @@
         "alias"     : "MP",
         "dosen"     : "HADI ZAKARIA, S.Kom., M.Kom., M.M.",
         "sks"       : "3",
-        "jadwal"    : "Offline, Online",
+        "jadwal"    : "Offline",
         "link"      : "https://mentari.unpam.ac.id",
-        "deadline"  : "[2025-06-06, 23:59:59]"
+        "deadline"  : "[2025-06-07, 23:59:59]"
     },
 
     "tugas.1": {
         "id_mk"     : "mk.1",
         "namatugas" : "Project Sistem Informasi Manajemen",
-        "deskripsi" : "Membuat Sistem Informasi Manajemen utuh bebas, dijelaskan dalam bentuk video.",
-        "cara"      : "Upload video di YouTube, kirim link ke dosen.",
-        "deadline"  : "2025-06-21 12:00:00"
+        "deskripsi" : "Membuat Sistem Informasi Manajemen utuh bebas, dibuatkan laporan project tercetak, dijelaskan dalam bentuk video.",
+        "cara"      : "Kumpulkan laporan fisik ke dosen, upload video di YouTube, kirim link ke dosen.",
+        "deadline"  : "2025-06-16 12:00:00"
     },
 
     "tugas.2": {
         "id_mk"     : "mk.7",
         "namatugas" : "Tugas Pemrograman Web I",
         "deskripsi" : "Membuat aplikasi web sederhana menggunakan HTML, CSS, dan JavaScript.",
-        "cara"      : "Kirimkan kode sumber melalui GitHub atau platform serupa.",
-        "deadline"  : "2025-06-14 12:00:00" 
+        "cara"      : "Presentasikan dan Hosting aplikasi web di platform GitHub atau sejenisnya.",
+        "deadline"  : "2025-06-21 12:00:00" 
     },
 
     "tugas.3": {
@@ -113,7 +113,7 @@
         "namatugas" : "Tugas Machine Learning",
         "deskripsi" : "Menerapkan algoritma machine learning pada dataset besar.",
         "cara"      : "Kirimkan notebook Jupyter atau kode Python melalui email.",
-        "deadline"  : "2025-06-21 23:59:59"
+        "deadline"  : "2025-06-27 23:59:59"
     },
     "tugas.4": {
         "id_mk"     : "mk.6",
@@ -126,31 +126,31 @@
     "info.1": {
         "judul"     : "Pertemuan Tatap Muka Jam ke-1",
         "isi"       : "Mata Kuliah Teknik Riset Operasional - Mulai pukul 7:40 s/d. 9:20 WIB",
-        "realease"  : "Rabu, 2025-06-11"
+        "realease"  : "Senin, 2025-06-16"
     },
 
     "info.2": {
         "judul"     : "Pertemuan Tatap Muka Jam ke-2",
         "isi"       : "Mata Kuliah Digital Entrepreneurship - Mulai pukul 9:20 s/d. 11:00 WIB",
-        "realease"  : "Rabu, 2025-06-11"
+        "realease"  : "Senin, 2025-06-16"
     },
 
     "info.3": {
         "judul"     : "Pertemuan Tatap Muka Jam ke-3",
         "isi"       : "Mata Kuliah Pemrograman Web I - Mulai pukul 11:00 s/d. 12:20 WIB",
-        "realease"  : "Rabu, 2025-06-11"
+        "realease"  : "Senin, 2025-06-16"
     },
 
     "info.4": {
         "judul"     : "Istirahat",
         "isi"       : "Istirahat - Mulai pukul 12:20 s/d. 13:00 WIB",
-        "realease"  : "Rabu, 2025-06-11"
+        "realease"  : "Senin, 2025-06-16"
     },
 
     "info.5": {
         "judul"     : "Pertemuan Tatap Muka Jam ke-4",
         "isi"       : "Mata Kuliah Metode Penelitian - Mulai pukul 13:00 s/d. 14:40 WIB",
-        "realease"  : "Rabu, 2025-06-11"
+        "realease"  : "Senin, 2025-06-16"
     },
 
     "kontak.1": {
