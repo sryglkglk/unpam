@@ -42,22 +42,7 @@
   </section>
   <div id="tanggal-hari" style="text-align:center; font-weight:bold; margin-top:10px;"></div>
   <div id="jam-sekarang" style="text-align:center; font-size:1.5em; color:#fff; font-weight:bold; text-shadow:0 1px 4px #222;"></div>
-  <script>
-    function updateTanggalJam() {
-      const now = new Date();
-      const hari = now.toLocaleDateString('id-ID', { weekday: 'long' });
-      const tanggal = now.toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' });
-      document.getElementById('tanggal-hari').textContent = `[ ${hari}, ${tanggal} ]`;
-
-      // Format jam: [22:30]
-      const jam = now.getHours().toString().padStart(2, '0');
-      const menit = now.getMinutes().toString().padStart(2, '0');
-      document.getElementById('jam-sekarang').textContent = `[ ${jam}:${menit} ]`;
-    }
-    updateTanggalJam();
-    setInterval(updateTanggalJam, 1000);
-  </script>
-
+  <script src="./js/nowtime.js"></script>
   <!-- Konten Utama -->
   <div id="main" class="main-content container">
     <section id="pekan" data-aos="fade-up">
@@ -131,9 +116,10 @@
     </section>
   </div>
 
-  <!-- Script AOS dan Sidebar -->
+  <!-- Script AOS dan Power Refresh -->
   <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-  <script src="./js/aosscript.js"></script>
+  <script src="./js/sidebarscript.js"></script>
+  <script>AOS.init();</script>
   <!-- Tombol Power Refresh -->
   <div style="text-align:center; margin: 40px 0 20px 0;">
     <button id="power-refresh-btn" class="btn btn-danger" style="font-weight:bold; font-size:1.1em;">
