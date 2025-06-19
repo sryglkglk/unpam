@@ -12,7 +12,7 @@
               const namaMk = mk.judul || tugas.id_mk || '';
               const deadline = tugas.deadline ? new Date(tugas.deadline) : null;
               const deadlineHtml = deadline
-                ? `<span style="display:inline-flex;align-items:center;justify-content:center;vertical-align:middle;font-size:0.85em;color:blue;background:yellow;border-radius:4px;padding:2px 10px;min-width:70px;min-height:24px;text-align:center;"><b>${deadline.toLocaleDateString('id-ID', { day: 'numeric', month: 'short' })}</b></span>`
+                ? `<span style="display:inline-flex;align-items:center;justify-content:center;vertical-align:middle;font-size:0.85em;color:blue;background:yellow;border-radius:4px;padding:2px 10px;min-width:70px;min-height:24px;text-align:center;"><b>${deadline.toLocaleDateString('id-ID', { day: 'numeric', month: 'long' })}</b></span>`
                 : '';      const li = document.createElement('li');
               li.innerHTML = `
                 <strong>${namaMk}</strong> ${deadlineHtml}
