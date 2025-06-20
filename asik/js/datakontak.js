@@ -15,8 +15,8 @@ fetch('./data.json')
     ketuaDiv.innerHTML = `
       <p><strong>Ketua Kelas:<br></strong> ${ketua.nama || ''} (${ketua.nim || ''})<br>
       <span style="user-select:all;">${ketua.no_hp || ''}</span>
-      ${ketuaWhatsappLink ? `<br>${ketuaWhatsappLink}` : ''}
-      ${ketua.email ? `<br><a href="mailto:${ketua.email}">${ketua.email}</a>` : ''}
+      ${ketuaWhatsappLink ? `<br><a href="https://wa.me/${ketua.no_hp ? (ketua.no_hp.replace(/\D/g, '').replace(/^0/, '62').replace(/^(?!62)/, '62')) : ''}" target="_blank" style="color:#25D366;">Chat WhatsApp</a>` : ''}
+      ${ketua.email ? `<br><a href="mailto:${ketua.email}" style="color:#e75480;">${ketua.email}</a>` : ''}
       </p>
     `;
 
@@ -41,8 +41,8 @@ fetch('./data.json')
             <strong>${mk.judul || ''}</strong><br>
             ${mk.dosen || ''}<br>
             <span style="user-select:all;">${kontak.no_hp || ''}</span>
-            ${dosenWhatsappLink ? `<br>${dosenWhatsappLink}` : ''}
-            ${kontak.email ? `<br><a href="mailto:${kontak.email}">${kontak.email}</a>` : ''}
+            ${dosenWhatsappLink ? `<br><a href="${kontak.link || `https://wa.me/${kontak.no_hp ? (kontak.no_hp.replace(/\D/g, '').replace(/^0/, '62').replace(/^(?!62)/, '62')) : ''}`}" target="_blank" style="color:#25D366;">Chat WhatsApp</a>` : ''}
+            ${kontak.email ? `<br><a href="mailto:${kontak.email}" style="color:#e75480;">${kontak.email}</a>` : ''}
           </div>
         `);
       });
