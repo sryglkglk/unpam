@@ -1,5 +1,5 @@
 {
-    "pekan_ini": "XII",
+    "pekan_ini": "XIII",
 
     "pertemuan_2sks" : "P13",
     "pertemuan_3sks" : "P19",
@@ -152,6 +152,13 @@
         "isi"       : "Mata Kuliah Metode Penelitian - Mulai pukul 13:00 s/d. 14:40 WIB",
         "realease"  : "Senin, 2025-06-16"
     },
+
+        "info.7": {
+        "judul"     : "Tugas Terstrukutur 21 - Pemrograman Web I",
+        "isi"       : "Kerjakan Tugas Terstruktur Pertemuan 21 di Mentari",
+        "realease"  : "Jum'at, 2025-06-19"
+    },
+
 
     "kontak.1": {
         "id_mk"     : "mk.1",
