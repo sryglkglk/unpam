@@ -1,8 +1,8 @@
 {
-    "pekan_ini": "XIII",
+    "pekan_ini": "XIV",
 
-    "pertemuan_2sks" : "P13",
-    "pertemuan_3sks" : "P19",
+    "pertemuan_2sks" : "P14",
+    "pertemuan_3sks" : "P20 - P21",
 
     "ketua": {
         "nama"      : "data tidak tersedia",
@@ -18,18 +18,18 @@
         "dosen"     : "DEANNA DURBIN HUTAGALUNG S.T., M.Kom. ",
         "sks"       : "2",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id",
-        "deadline"  : "[2025-06-21, 23:59:59]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20242-05TPLE004-22TIF0252?accord_pertemuan=PERTEMUAN_14",
+        "deadline"  : "[2025-06-26, 23:59:59]"
     },
 
     "mk.2": {
-        "judul"     : "Pencitraan Digital",
+        "judul"     : "Pengelolaan Citra Digital",
         "alias"     : "PD",
         "dosen"     : "DIMAS LENDENSI, S.Kom., M.Kom.",
         "sks"       : "2",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id",
-        "deadline"  : "[2025-06-22, 23:59:59]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20242-05TPLE004-22TIF0262?accord_pertemuan=PERTEMUAN_14",
+        "deadline"  : "[2025-06-26, 23:59:59]"
     },
 
     "mk.3": {
@@ -38,8 +38,8 @@
         "dosen"     : "ARIES SAIFUDIN A.Md., S.T., M.Kom.",
         "sks"       : "3",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id",
-        "deadline"  : "[2025-06-23, 23:59:59]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20242-05TPLE004-22TIF0243?accord_pertemuan=PERTEMUAN_20",
+        "deadline"  : "[2025-06-27, 23:59:59]"
     },
 
     "mk.4": {
@@ -48,8 +48,8 @@
         "dosen"     : "HARDIANSYAH, S.Kom., M.M., M.Kom.",
         "sks"       : "3",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id",
-        "deadline"  : "[2025-06-24, 23:59:59]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20242-05TPLE004-22TIF1013?accord_pertemuan=PERTEMUAN_20",
+        "deadline"  : "[2025-06-26, 23:59:59]"
     },
 
     "mk.5": {
@@ -58,8 +58,8 @@
         "dosen"     : "SUTRISNO, S.Kom., M.Kom.",
         "sks"       : "2",
         "jadwal"    : "Offline",
-        "link"      : "https://mentari.unpam.ac.id",
-        "deadline"  : "[2025-06-25, 23:59:59]"
+        "link"      : "https://drive.google.com/drive/folders/1vpO6rU-dLGJ_V3qO-pRWsegS8KrIh-mN?usp=drive_link",
+        "deadline"  : "[2025-06-28, 09:20:00]"
     },
     
     "mk.6": {
@@ -67,9 +67,9 @@
         "alias"     : "DE",
         "dosen"     : "SAHLAN, S.Kom., M.Kom.",
         "sks"       : "2",
-        "jadwal"    : "Offline",
-        "link"      : "https://mentari.unpam.ac.id",
-        "deadline"  : "[2025-06-26, 23:59:59]"
+        "jadwal"    : "Offilne",
+        "link"      : "https://chatgpt.com",
+        "deadline"  : "[2025-06-28, 11:00:00]"
     },
 
     "mk.7": {
@@ -79,7 +79,7 @@
         "sks"       : "3",
         "jadwal"    : "Offline",
         "link"      : "https://mentari.unpam.ac.id",
-        "deadline"  : "[2025-06-21, 23:59:59]"
+        "deadline"  : "[2025-06-28, 12:20:00]"
     },
 
     "mk.8": {
@@ -94,7 +94,7 @@
 
     "tugas.1": {
         "id_mk"     : "mk.1",
-        "namatugas" : "Project Sistem Informasi Manajemen",
+        "namatugas" : "Project SIM [DITUTUP]",
         "deskripsi" : "Membuat Sistem Informasi Manajemen utuh bebas, dibuatkan laporan project tercetak, dijelaskan dalam bentuk video.",
         "cara"      : "Kumpulkan laporan fisik ke dosen, upload video di YouTube, kirim link ke dosen.",
         "deadline"  : "2025-06-16 12:00:00"
@@ -102,22 +102,22 @@
 
     "tugas.2": {
         "id_mk"     : "mk.7",
-        "namatugas" : "Tugas Pemrograman Web I",
+        "namatugas" : "Presentasi [BAGIAN II]",
         "deskripsi" : "Membuat aplikasi web sederhana menggunakan HTML, CSS, dan JavaScript.",
         "cara"      : "Presentasikan dan Hosting aplikasi web di platform GitHub atau sejenisnya.",
-        "deadline"  : "2025-06-21 12:00:00" 
+        "deadline"  : "2025-06-28 12:00:00" 
     },
 
     "tugas.3": {
         "id_mk"     : "mk.4",
-        "namatugas" : "Tugas Machine Learning",
+        "namatugas" : "Membuat Model Machine Learning",
         "deskripsi" : "Menerapkan algoritma machine learning pada dataset besar.",
-        "cara"      : "Kirimkan notebook Jupyter atau kode Python melalui email.",
-        "deadline"  : "2025-06-27 23:59:59"
+        "cara"      : "Kirimkan notebook Jupyter/Google Colab, beserta lampiran ke google form.",
+        "deadline"  : "2025-06-26 23:59:59"
     },
     "tugas.4": {
         "id_mk"     : "mk.6",
-        "namatugas" : "Tugas Digital Entrepreneurship",
+        "namatugas" : "Model Bisnis Digital [DITUTUP]",
         "deskripsi" : "Membuat Model Bisnis Digital Umum.",
         "cara"      : "Tunjukkan model bisnis secara langsung ke dosen pada pertemuan tatap muka.",
         "deadline"  : "2025-06-14 12:00:00"
@@ -125,95 +125,88 @@
 
     "info.1": {
         "judul"     : "Pertemuan Tatap Muka Jam ke-1",
-        "isi"       : "Mata Kuliah Teknik Riset Operasional - Mulai pukul 7:40 s/d. 9:20 WIB",
-        "realease"  : "Senin, 2025-06-16"
+        "isi"       : "Mata Kuliah Teknik Riset Operasional Pertemuan 14 - Sabtu, 28/06/2025 pukul 7:40 s/d. 9:20 WIB",
+        "realease"  : "Minggu, 2025-06-22"
     },
 
     "info.2": {
         "judul"     : "Pertemuan Tatap Muka Jam ke-2",
-        "isi"       : "Mata Kuliah Digital Entrepreneurship - Mulai pukul 9:20 s/d. 11:00 WIB",
-        "realease"  : "Senin, 2025-06-16"
+        "isi"       : "Mata Kuliah Digital Entrepreneurship Pertemuan 14 - Sabtu, 28/06/2025 pukul 9:20 s/d. 11:00 WIB",
+        "realease"  : "Minggu, 2025-06-22"
     },
 
     "info.3": {
         "judul"     : "Pertemuan Tatap Muka Jam ke-3",
-        "isi"       : "Mata Kuliah Pemrograman Web I - Mulai pukul 11:00 s/d. 12:20 WIB",
-        "realease"  : "Senin, 2025-06-16"
+        "isi"       : "Mata Kuliah Pemrograman Web I Pertemuan 20 Mulai - Sabtu, pukul 11:00 s/d. 12:20 WIB",
+        "realease"  : "Minggu, 2025-06-22"
     },
 
     "info.4": {
         "judul"     : "Istirahat",
-        "isi"       : "Istirahat - Mulai pukul 12:20 s/d. 13:00 WIB",
-        "realease"  : "Senin, 2025-06-16"
+        "isi"       : "Prakiraan waktu Istirahat: pukul 11:00 s/d. 13:00 WIB atau 12:00 s/d. 13:50 WIB",
+        "realease"  : "Minggu, 2025-06-22"
     },
 
     "info.5": {
         "judul"     : "Pertemuan Tatap Muka Jam ke-4",
-        "isi"       : "Mata Kuliah Metode Penelitian - Mulai pukul 13:00 s/d. 14:40 WIB",
-        "realease"  : "Senin, 2025-06-16"
+        "isi"       : "Mata Kuliah Metode Penelitian Pertemuan 20 Mulai - Sabtu, pukul 13:50 s/d. 15:30 WIB",
+        "realease"  : "Minggu, 2025-06-22"
     },
-
-        "info.7": {
-        "judul"     : "Tugas Terstrukutur 21 - Pemrograman Web I",
-        "isi"       : "Kerjakan Tugas Terstruktur Pertemuan 21 di Mentari",
-        "realease"  : "Jum'at, 2025-06-19"
-    },
-
 
     "kontak.1": {
         "id_mk"     : "mk.1",
         "no_hp"     : "0812-3456-7890",
-        "email"     : "dosen.mk.1@unpam.ac.id",
-        "link"      : "https://wa.me/6281234567890"
+        "email"     : "deanna.upn91@gmail.com",
+        "link"      : "https://wa.me/6281387013075"
     },
 
     "kontak.2": {
         "id_mk"     : "mk.2",
-        "no_hp"     : "0812-3456-7891",
-        "email"     : "dosen.mk.2@unpam.ac.id",
-        "link"      : "https://wa.me/6281234567891"
+        "no_hp"     : "xxxx-xxxx-xxxx",
+        "email"     : "someone@email.com",
+        "link"      : "https://wa.me/"
     },
 
     "kontak.3": {
         "id_mk"     : "mk.3",
-        "no_hp"     : "0812-3456-7892",
-        "email"     : "dosen.mk.3@unpam.ac.id",
-        "link"      : "https://wa.me/6281234567892"
+        "no_hp"     : "xxxx-xxxx-xxxx",
+        "email"     : "someone@email.com",
+        "link"      : "https://wa.me/"
     },
 
     "kontak.4": {
         "id_mk"     : "mk.4",
-        "no_hp"     : "0812-3456-7893",
-        "email"     : "dosen.mk.4@unpam.ac.id",
-        "link"      : "https://wa.me/6281234567893"
+        "no_hp"     : "xxxx-xxxx-xxxx",
+        "email"     : "someone@email.com",
+        "link"      : "https://wa.me/"
     },
 
     "kontak.5": {
         "id_mk"     : "mk.5",
-        "no_hp"     : "0812-3456-7894",
-        "email"     : "dosen.mk.5@unpam.ac.id",
-        "link"      : "https://wa.me/6281234567894"
+        "no_hp"     : "xxxx-xxxx-xxxx",
+        "email"     : "someone@email.com",
+        "link"      : "https://wa.me/"
     },
 
     "kontak.6": {
         "id_mk"     : "mk.6",
-        "no_hp"     : "0812-3456-7895",
-        "email"     : "dosen.mk.6@unpam.ac.id",
-        "link"      : "https://wa.me/6281234567895"
+        "no_hp"     : "xxxx-xxxx-xxxx",
+        "email"     : "someone@email.com",
+        "link"      : "https://wa.me/"
     },
 
     "kontak.7": {
         "id_mk"     : "mk.7",
-        "no_hp"     : "0812-3456-7896",
-        "email"     : "dosen.mk.7@unpam.ac.id",
-        "link"      : "https://wa.me/6281234567896"
+        "no_hp"     : "0822-1330-3751",
+        "email"     : "someone@email.com",
+        "link"      : "https://wa.me/6282213303751"
     },
 
     "kontak.8": {
         "id_mk"     : "mk.8",
-        "no_hp"     : "0812-3456-7897",
-        "email"     : "dosen.mk.8@unpam.ac.id",
-        "link"      : "https://wa.me/6281234567897"
+        "no_hp"     : "xxxx-xxxx-xxxx",
+        "email"     : "someone@email.com",
+        "link"      : "https://wa.me/"
     },
 
     "info_umum.1": {
@@ -229,3 +222,4 @@
     }
 
 }
+
