@@ -77,7 +77,7 @@
         "alias"     : "WEB I",
         "dosen"     : "GALUH SAPUTRI, S.Kom., M.Kom.",
         "sks"       : "3",
-        "jadwal"    : "Offline",
+        "jadwal"    : "Offline, Online",
         "link"      : "https://mentari.unpam.ac.id/u-courses/20242-05TPLE004-22TIF0283?accord_pertemuan=PERTEMUAN_21",
         "deadline"  : "[2025-06-28, 12:20:00]"
     },
@@ -87,7 +87,7 @@
         "alias"     : "MP",
         "dosen"     : "HADI ZAKARIA, S.Kom., M.Kom., M.M.",
         "sks"       : "3",
-        "jadwal"    : "Offline",
+        "jadwal"    : "Offline, Online",
         "link"      : "https://mentari.unpam.ac.id/u-courses/20242-05TPLE004-22TIF0293?accord_pertemuan=PERTEMUAN_21",
         "deadline"  : "[2025-06-07, 23:59:59]"
     },
