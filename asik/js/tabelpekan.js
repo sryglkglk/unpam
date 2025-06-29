@@ -21,45 +21,46 @@
                 let jadwal = mk.jadwal || '';
                 if (pertemuan && !jadwal.includes('P')) {
                   jadwal = `${jadwal}<br>${pertemuan}`;
-                }
-
-                // Deadline logic
-                let deadlineText = '';
-                let deadlineRaw = '';
-                if (mk.deadline) {
-                  // Format: "[2025-06-06, 23:59:59]"
-                  const match = mk.deadline.match(/\[(\d{4}-\d{2}-\d{2}),\s*([\d:]+)\]/);
-                  if (match) {
-                    const deadlineDate = new Date(`${match[1]}T${match[2]}`);
-                    const now = new Date();
-                    // Hitung selisih hari (dibulatkan ke bawah)
-                    const diffTime = deadlineDate - now;
-                    const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
-                    if (diffDays > 4) {
-                      deadlineText = '&gt;4 Hari tersisa 🔵';
-                    } else if (diffDays === 4) {
-                      deadlineText = '4 Hari tersisa 🟢';
-                    } else if (diffDays === 3) {
-                      deadlineText = '3 Hari tersisa 🟡';
-                    } else if (diffDays === 2) {
-                      deadlineText = '2 Hari tersisa 🟠';
-                    } else if (diffDays === 1) {
-                      deadlineText = '1 Hari tersisa 🔴';
-                    } else if (diffDays < 1) {
-                      deadlineText = 'Batas waktu habis 💀';
-                    }
-                    // Format deadlineRaw: Hari, DD-MM-YYYY, HH:mm
-                    const jamMenit = match[2].slice(0,5); // ambil HH:mm
-                    const tgl = match[1].split('-'); // YYYY, MM, DD
-                    const dateObj = new Date(`${match[1]}T${match[2]}`);
-                    const hariArr = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', "Jum'at", 'Sabtu'];
-                    const hari = hariArr[dateObj.getDay()];
-                    deadlineRaw = `<br><small>${hari}, ${tgl[2]}-${tgl[1]}-${tgl[0]}, ${jamMenit}</small>`;
                   }
-                }
 
-                const tr = document.createElement('tr');
-                tr.innerHTML = `
+                  // Deadline logic
+                  let deadlineText = '';
+                  let deadlineRaw = '';
+                  if (mk.deadline) {
+                    // Format: "[2025-06-06, 23:59:59]"
+                    const match = mk.deadline.match(/\[(\d{4}-\d{2}-\d{2}),\s*([\d:]+)\]/);
+                    if (match) {
+                      const deadlineDate = new Date(`${match[1]}T${match[2]}`);
+                      const now = new Date();
+                      // Hitung selisih hari (dibulatkan ke bawah)
+                      const diffTime = deadlineDate - now;
+                      const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+                      if (diffDays > 4) {
+                        deadlineText = '&gt;4 Hari tersisa 🔵';
+                      } else if (diffDays === 4) {
+                        deadlineText = '4 Hari tersisa 🟢';
+                      } else if (diffDays === 3) {
+                        deadlineText = '3 Hari tersisa 🟡';
+                      } else if (diffDays === 2) {
+                        deadlineText = '2 Hari tersisa 🟠';
+                      } else if (diffDays === 1) {
+                        deadlineText = '1 Hari tersisa 🔴';
+                      } else if (diffDays < 1) {
+                        deadlineText = 'Batas waktu habis 💀';
+                      }
+                      // Format deadlineRaw: Hari, DD-MM-YYYY, HH:mm
+                      const jamMenit = match[2].slice(0,5); // ambil HH:mm
+                      const tgl = match[1].split('-'); // YYYY, MM, DD
+                      const dateObj = new Date(`${match[1]}T${match[2]}`);
+                      const hariArr = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', "Jum'at", 'Sabtu'];
+                      const hari = hariArr[dateObj.getDay()];
+                      deadlineRaw = `<br><small>${hari}, ${tgl[2]}-${tgl[1]}-${tgl[0]}, ${jamMenit}</small>`;
+                    }
+                  } else {
+                    // Jika data deadline tidak diisi
+                    deadlineText = 'data tidak tersedia';
+                  }
+                  const tr = document.createElement('tr');        tr.innerHTML = `
                   <td class="align-middle">${mk.alias || ''}</td>
                   <td>${mk.judul || ''}<br><small>${mk.dosen || ''}</small></td>
                   <td class="text-center align-middle">${mk.sks || ''}</td>

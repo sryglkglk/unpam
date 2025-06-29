@@ -1,8 +1,8 @@
 {
-    "pekan_ini": "XIV",
+    "pekan_ini": "UAS",
 
-    "pertemuan_2sks" : "P14",
-    "pertemuan_3sks" : "P20 - P21",
+    "pertemuan_2sks" : "UAS",
+    "pertemuan_3sks" : "UAS",
 
     "ketua": {
         "nama"      : "data tidak tersedia",
@@ -18,18 +18,18 @@
         "dosen"     : "DEANNA DURBIN HUTAGALUNG S.T., M.Kom. ",
         "sks"       : "2",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20242-05TPLE004-22TIF0252?accord_pertemuan=PERTEMUAN_14",
-        "deadline"  : "[2025-06-26, 23:59:59]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20242-05TPLE004-22TIF0252?accord_pertemuan=UAS",
+        "deadline"  : ""
     },
 
     "mk.2": {
-        "judul"     : "Pengelolaan Citra Digital",
-        "alias"     : "PD",
+        "judul"     : "Pengolahan Citra Digital",
+        "alias"     : "PCD",
         "dosen"     : "DIMAS LENDENSI, S.Kom., M.Kom.",
         "sks"       : "2",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20242-05TPLE004-22TIF0262?accord_pertemuan=PERTEMUAN_14",
-        "deadline"  : "[2025-06-26, 23:59:59]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20242-05TPLE004-22TIF0262?accord_pertemuan=UAS",
+        "deadline"  : ""
     },
 
     "mk.3": {
@@ -38,8 +38,8 @@
         "dosen"     : "ARIES SAIFUDIN A.Md., S.T., M.Kom.",
         "sks"       : "3",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20242-05TPLE004-22TIF0243?accord_pertemuan=PERTEMUAN_20",
-        "deadline"  : "[2025-06-27, 23:59:59]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20242-05TPLE004-22TIF0243?accord_pertemuan=UAS",
+        "deadline"  : ""
     },
 
     "mk.4": {
@@ -48,8 +48,8 @@
         "dosen"     : "HARDIANSYAH, S.Kom., M.M., M.Kom.",
         "sks"       : "3",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20242-05TPLE004-22TIF1013?accord_pertemuan=PERTEMUAN_20",
-        "deadline"  : "[2025-06-26, 23:59:59]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20242-05TPLE004-22TIF1013?accord_pertemuan=UAS",
+        "deadline"  : ""
     },
 
     "mk.5": {
@@ -59,7 +59,7 @@
         "sks"       : "2",
         "jadwal"    : "Offline",
         "link"      : "https://drive.google.com/drive/folders/1vpO6rU-dLGJ_V3qO-pRWsegS8KrIh-mN?usp=drive_link",
-        "deadline"  : "[2025-06-28, 09:20:00]"
+        "deadline"  : ""
     },
     
     "mk.6": {
@@ -69,7 +69,7 @@
         "sks"       : "2",
         "jadwal"    : "Offilne",
         "link"      : "https://chatgpt.com",
-        "deadline"  : "[2025-06-28, 11:00:00]"
+        "deadline"  : ""
     },
 
     "mk.7": {
@@ -77,9 +77,9 @@
         "alias"     : "WEB I",
         "dosen"     : "GALUH SAPUTRI, S.Kom., M.Kom.",
         "sks"       : "3",
-        "jadwal"    : "Offline, Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20242-05TPLE004-22TIF0283?accord_pertemuan=PERTEMUAN_21",
-        "deadline"  : "[2025-06-27, 23:59:59]"
+        "jadwal"    : "Offline",
+        "link"      : "https://drive.google.com/drive/folders/1vT0qehuTJNAeAdVLql-nC7SWZs6tKdke?usp=sharing",
+        "deadline"  : ""
     },
 
     "mk.8": {
@@ -87,9 +87,9 @@
         "alias"     : "MP",
         "dosen"     : "HADI ZAKARIA, S.Kom., M.Kom., M.M.",
         "sks"       : "3",
-        "jadwal"    : "Offline, Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20242-05TPLE004-22TIF0293?accord_pertemuan=PERTEMUAN_21",
-        "deadline"  : "[2025-06-27, 23:59:59]"
+        "jadwal"    : "Offline",
+        "link"      : "",
+        "deadline"  : ""
     },
 
     "tugas.1": {
@@ -102,7 +102,7 @@
 
     "tugas.2": {
         "id_mk"     : "mk.7",
-        "namatugas" : "Presentasi [BAGIAN II]",
+        "namatugas" : "Presentasi [DITUTUP]",
         "deskripsi" : "Membuat aplikasi web sederhana menggunakan HTML, CSS, dan JavaScript.",
         "cara"      : "Presentasikan dan Hosting aplikasi web di platform GitHub atau sejenisnya.",
         "deadline"  : "2025-06-28 12:00:00" 
@@ -110,7 +110,7 @@
 
     "tugas.3": {
         "id_mk"     : "mk.4",
-        "namatugas" : "Membuat Model Machine Learning",
+        "namatugas" : "Membuat Model Machine Learning [DITUTUP]",
         "deskripsi" : "Menerapkan algoritma machine learning pada dataset besar.",
         "cara"      : "Kirimkan notebook Jupyter/Google Colab, beserta lampiran ke google form.",
         "deadline"  : "2025-06-26 23:59:59"
@@ -124,40 +124,40 @@
     },
 
     "info.1": {
-        "judul"     : "Pertemuan Tatap Muka Jam ke-1",
-        "isi"       : "Mata Kuliah Teknik Riset Operasional Pertemuan 14 - Sabtu, 28/06/2025 pukul 7:40 s/d. 9:20 WIB",
-        "realease"  : "Minggu, 2025-06-22"
+        "judul"     : "UAS - Jam ke-1",
+        "isi"       : "UAS Teknik Riset Operasional - OpenBook - Sabtu, 05/07/2025 pukul 7:40 s/d. 9:20 WIB",
+        "realease"  : "Minggu, 2025-06-29"
     },
 
     "info.2": {
-        "judul"     : "Pertemuan Tatap Muka Jam ke-2",
-        "isi"       : "Mata Kuliah Digital Entrepreneurship Pertemuan 14 - Sabtu, 28/06/2025 pukul 9:20 s/d. 11:00 WIB",
-        "realease"  : "Minggu, 2025-06-22"
+        "judul"     : "UAS - Jam ke-2",
+        "isi"       : "MUAS Digital Entrepreneurship - CloseBook - Sabtu, 05/07/2025 pukul 9:20 s/d. 11:00 WIB",
+        "realease"  : "Minggu, 2025-06-29"
     },
 
     "info.3": {
-        "judul"     : "Pertemuan Tatap Muka Jam ke-3",
-        "isi"       : "Mata Kuliah Pemrograman Web I Pertemuan 20 - Sabtu, pukul 11:00 s/d. 12:20 WIB",
-        "realease"  : "Minggu, 2025-06-22"
+        "judul"     : "UAS - Jam ke-3",
+        "isi"       : "UAS Pemrograman Web I - OpenBook - Sabtu, 05/07/2025 pukul 11:00 s/d. 12:20 WIB",
+        "realease"  : "Minggu, 2025-06-29"
     },
 
     "info.4": {
-        "judul"     : "Istirahat",
+        "judul"     : "Istirahat (Kalo ada)",
         "isi"       : "Prakiraan waktu Istirahat: pukul 11:00 s/d. 13:00 WIB atau 12:00 s/d. 13:50 WIB",
-        "realease"  : "Minggu, 2025-06-22"
+        "realease"  : "Minggu, 2025-06-29"
     },
 
     "info.5": {
-        "judul"     : "Pertemuan Tatap Muka Jam ke-4",
-        "isi"       : "Mata Kuliah Metode Penelitian Pertemuan 20 - Sabtu, pukul 13:50 s/d. 15:30 WIB",
-        "realease"  : "Minggu, 2025-06-22"
+        "judul"     : "UAS - Jam ke-4",
+        "isi"       : "UAS Metode Penelitian Pertemuan 20 Mulai - OpenBook - Sabtu, 05/07/2025 pukul 13:50 s/d. 15:30 WIB",
+        "realease"  : "Minggu, 2025-06-29"
     },
 
     "kontak.1": {
         "id_mk"     : "mk.1",
-        "no_hp"     : "0812-3456-7890",
+        "no_hp"     : "0813-8701-3075",
         "email"     : "deanna.upn91@gmail.com",
-        "link"      : "https://wa.me/6281387013075"
+        "link"      : "https://wa.me/6281387013075?text=Selamat%20Malam%2C%20Bu%0AIzin%20bertanya"
     },
 
     "kontak.2": {
@@ -219,6 +219,12 @@
         "judul"     : "Pembayaran SPP Semester Genap",
         "isi"       : "Pembayaran SPP untuk semester genap 2025 dibuka mulai 1 Juni hingga 30 Juni 2025. Pastikan pembayaran dilakukan tepat waktu untuk menghindari denda.",
         "realease"  : "Senin, 2025-06-02" 
+    },
+
+    "info_umum.3": {
+        "judul"     : "Ketentuan UAS",
+        "isi"       : "Setiap Mahasiswa wajib menyelesaikan administrasi pembayaran dan kode etik untuk dapat mengikuti UAS. Pastikan semua tugas telah dikumpulkan sebelum tanggal 29 Juni 2025.",
+        "realease"  : "Minggu, 2025-06-29"
     }
 
 }
