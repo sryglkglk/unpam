@@ -7,7 +7,7 @@ fetch('./data.json')
     const strongPekan = document.querySelector('#periode-pekan strong');
     if (strongPekan && pekan) {
       // Format waktu sekarang
-      strongPekan.textContent = `Pekan ke-${pekan}`;
+      strongPekan.textContent = `Pekan ${pekan}`;
     }
   })
   .catch(err => {

@@ -19,8 +19,7 @@
         "sks"       : "2",
         "jadwal"    : "Online",
         "link"      : "https://mentari.unpam.ac.id/u-courses/20242-05TPLE004-22TIF0252?accord_pertemuan=UAS",
-        "deadline"  : "",
-        "_tips"     : "format deadline '[YYYY-MM-DD, HH:MM:SS]' atau kosongkan saja jika tidak tersedia"
+        "deadline"  : ""
     },
 
     "mk.2": {
@@ -30,7 +29,8 @@
         "sks"       : "2",
         "jadwal"    : "Online",
         "link"      : "https://mentari.unpam.ac.id/u-courses/20242-05TPLE004-22TIF0262?accord_pertemuan=UAS",
-        "deadline"  : "[2025-07-02, 23:59:59]"
+        "deadline"  : "[2025-07-02, 23:59:59]",
+        "_komentar" : "Format deadline: [YYYY-MM-DD, HH:MM:SS] - Contoh: [2025-07-02, 23:59:59]"
     },
 
     "mk.3": {
