@@ -62,7 +62,7 @@
                   }
                   const tr = document.createElement('tr');        tr.innerHTML = `
                   <td class="align-middle">${mk.alias || ''}</td>
-                  <td>${mk.judul || ''}<br><small>${mk.dosen || ''}</small></td>
+                  <td class="align-middle">${mk.judul || ''}<br><small>${mk.dosen || ''}</small></td>
                   <td class="text-center align-middle">${mk.sks || ''}</td>
                   <td>${jadwal}</td>
                   <td class="text-center align-middle">${deadlineText}${deadlineRaw}</td>
