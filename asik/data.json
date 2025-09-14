@@ -1,8 +1,8 @@
 {
-    "pekan_ini": "UAS",
+    "pekan_ini": "II",
 
-    "pertemuan_2sks" : "UAS",
-    "pertemuan_3sks" : "UAS",
+    "pertemuan_2sks" : "P2",
+    "pertemuan_3sks" : "P2.P3",
 
     "ketua": {
         "nama"      : "data tidak tersedia",
@@ -13,152 +13,142 @@
     },
 
     "mk.1": {
-        "judul"     : "Sistem Informasi Manajemen",
-        "alias"     : "SIM",
-        "dosen"     : "DEANNA DURBIN HUTAGALUNG S.T., M.Kom. ",
+        "judul"     : "Teknik Kompilasi",
+        "alias"     : "TK",
+        "dosen"     : "Ir. BODI SANTOSO, M.T.",
         "sks"       : "2",
-        "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20242-05TPLE004-22TIF0252?accord_pertemuan=UAS",
-        "deadline"  : "[2025-07-03, 22:00:00]"
+        "jadwal"    : "Offline",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20251-06TPLE004-22TIF3012?accord_pertemuan=PERTEMUAN_2",
+        "deadline"  : "[2025-11-19, 23:59:59]",
+        "_komentar" : "Format deadline: [YYYY-MM-DD, HH:MM:SS] - Contoh: [2025-07-02, 23:59:59]"
+
     },
 
     "mk.2": {
-        "judul"     : "Pengolahan Citra Digital",
-        "alias"     : "PCD",
-        "dosen"     : "DIMAS LENDENSI, S.Kom., M.Kom.",
-        "sks"       : "2",
-        "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20242-05TPLE004-22TIF0262?accord_pertemuan=UAS",
-        "deadline"  : "[2025-07-02, 23:59:59]",
-        "_komentar" : "Format deadline: [YYYY-MM-DD, HH:MM:SS] - Contoh: [2025-07-02, 23:59:59]"
+        "judul"     : "Rekayasa Perangkat Lunak",
+        "alias"     : "RPL",
+        "dosen"     : "NASRUL HIDAYAH, S.Kom., M.Kom.",
+        "sks"       : "3",
+        "jadwal"    : "Offline.Online",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20251-06TPLE004-22TIF0323?accord_pertemuan=PERTEMUAN_3",
+        "deadline"  : "[2025-11-19, 23:59:59]"
     },
 
     "mk.3": {
-        "judul"     : "Kecerdasan Buatan",
-        "alias"     : "KB (AI)",
-        "dosen"     : "ARIES SAIFUDIN A.Md., S.T., M.Kom.",
+        "judul"     : "Pemrograman II",
+        "alias"     : "PRG-II",
+        "dosen"     : "SEPTA, S.Kom., M.Kom.",
         "sks"       : "3",
-        "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20242-05TPLE004-22TIF0243?accord_pertemuan=UAS",
-        "deadline"  : ""
+        "jadwal"    : "Offline.Online",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20251-06TPLE004-22TIF0353?accord_pertemuan=PERTEMUAN_3",
+        "deadline"  : "[2025-11-19, 23:59:59]"
     },
 
     "mk.4": {
-        "judul"     : "Machine Learning",
-        "alias"     : "ML",
-        "dosen"     : "HARDIANSYAH, S.Kom., M.M., M.Kom.",
-        "sks"       : "3",
-        "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20242-05TPLE004-22TIF1013?accord_pertemuan=UAS",
-        "deadline"  : ""
+        "judul"     : "Sistem Pendukung Keputusan",
+        "alias"     : "SPK",
+        "dosen"     : "MEIDY FAJAR WAHYU, S.T., M.Kom.",
+        "sks"       : "2",
+        "jadwal"    : "Offline",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20251-06TPLE004-22TIF2012?accord_pertemuan=PERTEMUAN_2",
+        "deadline"  : "[2025-11-19, 23:59:59]"
     },
 
     "mk.5": {
-        "judul"     : "Teknik Riset Operasional",
-        "alias"     : "TRO",
-        "dosen"     : "SUTRISNO, S.Kom., M.Kom.",
+        "judul"     : "Kerja Praktek",
+        "alias"     : "KP",
+        "dosen"     : "MAULANA ARDHIANSYAH, S.Kom., M.Kom.",
         "sks"       : "2",
-        "jadwal"    : "Offline",
-        "link"      : "https://drive.google.com/drive/folders/1vpO6rU-dLGJ_V3qO-pRWsegS8KrIh-mN?usp=drive_link",
-        "deadline"  : ""
+        "jadwal"    : "Online",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20251-06TPLE004-22TIF0332?accord_pertemuan=PERTEMUAN_2",
+        "deadline"  : "[2025-11-19, 23:59:59]"
     },
     
     "mk.6": {
-        "judul"     : "Digital Entrepreneurship",
-        "alias"     : "DE",
-        "dosen"     : "SAHLAN, S.Kom., M.Kom.",
-        "sks"       : "2",
-        "jadwal"    : "Offilne",
-        "link"      : "https://chatgpt.com",
-        "deadline"  : ""
+        "judul"     : "Basis Data II",
+        "alias"     : "BD-ii",
+        "dosen"     : "YONO CAHYONO, S.Kom., M.Kom.",
+        "sks"       : "3",
+        "jadwal"    : "Online",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20251-06TPLE004-22TIF0363?accord_pertemuan=PERTEMUAN_2",
+        "deadline"  : "[2025-11-19, 23:59:59]"
     },
 
     "mk.7": {
-        "judul"     : "Pemrograman Web I",
-        "alias"     : "WEB I",
-        "dosen"     : "GALUH SAPUTRI, S.Kom., M.Kom.",
+        "judul"     : "Mobile Programming",
+        "alias"     : "MoPr",
+        "dosen"     : "FARIDA NURLAILA, S.Kom., M.Kom.",
         "sks"       : "3",
-        "jadwal"    : "Offline",
-        "link"      : "https://drive.google.com/drive/folders/1vT0qehuTJNAeAdVLql-nC7SWZs6tKdke?usp=sharing",
-        "deadline"  : ""
+        "jadwal"    : "Online",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20251-06TPLE004-22TIF0443?accord_pertemuan=PERTEMUAN_2",
+        "deadline"  : "[2025-11-19, 23:59:59]"
     },
 
     "mk.8": {
-        "judul"     : "Metode Penelitian",
-        "alias"     : "MP",
-        "dosen"     : "HADI ZAKARIA, S.Kom., M.Kom., M.M.",
-        "sks"       : "3",
-        "jadwal"    : "Offline",
-        "link"      : "",
-        "deadline"  : ""
+        "judul"     : "Teknologi Internet of Things",
+        "alias"     : "IoT",
+        "dosen"     : "CENDRA HARMON, S.Kom., M.Kom.",
+        "sks"       : "2",
+        "jadwal"    : "Online",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20251-06TPLE004-22TIF0342?accord_pertemuan=PERTEMUAN_2",
+        "deadline"  : "[2025-11-19, 23:59:59]"
     },
 
-    "tugas.1": {
-        "id_mk"     : "mk.1",
-        "namatugas" : "Project SIM [DITUTUP]",
-        "deskripsi" : "Membuat Sistem Informasi Manajemen utuh bebas, dibuatkan laporan project tercetak, dijelaskan dalam bentuk video.",
-        "cara"      : "Kumpulkan laporan fisik ke dosen, upload video di YouTube, kirim link ke dosen.",
-        "deadline"  : "2025-06-16 12:00:00"
-    },
 
-    "tugas.2": {
-        "id_mk"     : "mk.7",
-        "namatugas" : "Presentasi [DITUTUP]",
-        "deskripsi" : "Membuat aplikasi web sederhana menggunakan HTML, CSS, dan JavaScript.",
-        "cara"      : "Presentasikan dan Hosting aplikasi web di platform GitHub atau sejenisnya.",
-        "deadline"  : "2025-06-28 12:00:00" 
-    },
 
-    "tugas.3": {
-        "id_mk"     : "mk.4",
-        "namatugas" : "Membuat Model Machine Learning [DITUTUP]",
-        "deskripsi" : "Menerapkan algoritma machine learning pada dataset besar.",
-        "cara"      : "Kirimkan notebook Jupyter/Google Colab, beserta lampiran ke google form.",
-        "deadline"  : "2025-06-26 23:59:59"
-    },
-    "tugas.4": {
-        "id_mk"     : "mk.6",
-        "namatugas" : "Model Bisnis Digital [DITUTUP]",
-        "deskripsi" : "Membuat Model Bisnis Digital Umum.",
-        "cara"      : "Tunjukkan model bisnis secara langsung ke dosen pada pertemuan tatap muka.",
-        "deadline"  : "2025-06-14 12:00:00"
-    },
 
     "info.1": {
-        "judul"     : "UAS - Jam ke-1",
-        "isi"       : "UAS Teknik Riset Operasional - OpenBook - Sabtu, 05/07/2025 pukul 7:40 s/d. 9:20 WIB",
-        "realease"  : "Minggu, 2025-06-29"
+        "judul"     : "Masuk Jam Pertama",
+        "isi"       : "Masuk Pukul 9:20 - Bawa Laptop - Matkul Teknik Kompilasi",
+        "realease"  : "Minggu, 2025-09-14"
     },
 
     "info.2": {
-        "judul"     : "UAS - Jam ke-2",
-        "isi"       : "MUAS Digital Entrepreneurship - CloseBook - Sabtu, 05/07/2025 pukul 9:20 s/d. 11:00 WIB",
-        "realease"  : "Minggu, 2025-06-29"
+        "judul"     : "Software WAJIB",
+        "isi"       : "Bahasa Assember (Teknik Kompilasi), NetBeans 25 + JDK 21 (Pemrograman II)",
+        "realease"  : "Minggu, 2025-09-14"
     },
 
     "info.3": {
-        "judul"     : "UAS - Jam ke-3",
-        "isi"       : "UAS Pemrograman Web I - OpenBook - Sabtu, 05/07/2025 pukul 11:00 s/d. 12:20 WIB",
-        "realease"  : "Minggu, 2025-06-29"
+        "judul"     : "Tugas Kelompok",
+        "isi"       : "Project Assembler - Bentuk Kelompok - Info lebih lanjut di Tugas",
+        "realease"  : "Minggu, 2025-09-14"
     },
 
     "info.4": {
-        "judul"     : "Istirahat (Kalo ada)",
-        "isi"       : "Prakiraan waktu Istirahat: pukul 11:00 s/d. 13:00 WIB atau 12:00 s/d. 13:50 WIB",
-        "realease"  : "Minggu, 2025-06-29"
+        "judul"     : "TIDAK ADA JAM ISTIRAHAT",
+        "isi"       : "Matkul Terakhir Sistem Pendukung Keputusan (SPK) digeser ke jam istirahat, jadi TIDAK ADA JAM ISTIRAHAT. Istirahat sekalian pulang.",
+        "realease"  : "Minggu, 2025-09-14"
     },
 
-    "info.5": {
-        "judul"     : "UAS - Jam ke-4",
-        "isi"       : "UAS Metode Penelitian Pertemuan 20 Mulai - OpenBook - Sabtu, 05/07/2025 pukul 13:50 s/d. 15:30 WIB",
-        "realease"  : "Minggu, 2025-06-29"
+
+
+    "tugas.1": {
+        "id_mk"     : "mk.1",
+        "namatugas" : "Project Assembler [PERSIAPAN]",
+        "deskripsi" : "Buat Kelompok sebanyak jumlah pertemuan, informasi tugas lebih lanjut menyusul.",
+        "cara"      : "Bentuk Kelompok dengan teman",
+        "deadline"  : "2025-11-19, 23:59:59"
     },
+
+    "tugas.2": {
+        "id_mk"     : "mk.5",
+        "namatugas" : "Kerja Praktek (KP)",
+        "deskripsi" : "KP WAJIB dilakukan di perusahaan/instansi sesuai dengan alur yang berlaku.",
+        "cara"      : "Setiap mahaswiswa wajib melakukan KP dengan aturan yang berlaku.",
+        "deadline"  : "2025-12-12 23:59:59" 
+    },
+
+
+
+
+
 
     "kontak.1": {
         "id_mk"     : "mk.1",
-        "no_hp"     : "0813-8701-3075",
-        "email"     : "deanna.upn91@gmail.com",
-        "link"      : "https://wa.me/6281387013075?text=Selamat%20Malam%2C%20Bu%0AIzin%20bertanya"
+        "no_hp"     : "xxxx-xxxx-xxxx",
+        "email"     : "someone@email.com",
+        "link"      : "https://wa.me/"
     },
 
     "kontak.2": {
@@ -211,21 +201,9 @@
     },
 
     "info_umum.1": {
-        "judul"     : "Seminar Nasioal Teknik Informatika",
-        "isi"       : "Seminar Nasional Teknik Informatika akan diadakan pada tanggal 15 Juni 2025 secara online. Peserta wajib mendaftar sebelum 10 Juni 2025.",
-        "realease"  : "Senin, 2025-06-02"
-    },
-
-    "info_umum.2": {
-        "judul"     : "Pembayaran SPP Semester Genap",
-        "isi"       : "Pembayaran SPP untuk semester genap 2025 dibuka mulai 1 Juni hingga 30 Juni 2025. Pastikan pembayaran dilakukan tepat waktu untuk menghindari denda.",
-        "realease"  : "Senin, 2025-06-02" 
-    },
-
-    "info_umum.3": {
-        "judul"     : "Ketentuan UAS",
-        "isi"       : "Setiap Mahasiswa wajib menyelesaikan administrasi pembayaran dan kode etik untuk dapat mengikuti UAS. Pastikan semua tugas telah dikumpulkan sebelum tanggal 29 Juni 2025.",
-        "realease"  : "Minggu, 2025-06-29"
+        "judul"     : "Males Ngisi Info",
+        "isi"       : "",
+        "realease"  : "Minggu, 2025-09-14"
     }
 
 }
