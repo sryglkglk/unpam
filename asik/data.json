@@ -19,7 +19,7 @@
         "sks"       : "2",
         "jadwal"    : "Offline",
         "link"      : "https://mentari.unpam.ac.id/u-courses/20251-06TPLE004-22TIF3012?accord_pertemuan=PERTEMUAN_2",
-        "deadline"  : "[2025-11-19, 23:59:59]",
+        "deadline"  : "[2025-09-19, 23:59:59]",
         "_komentar" : "Format deadline: [YYYY-MM-DD, HH:MM:SS] - Contoh: [2025-07-02, 23:59:59]"
 
     },
@@ -31,7 +31,7 @@
         "sks"       : "3",
         "jadwal"    : "Offline.Online",
         "link"      : "https://mentari.unpam.ac.id/u-courses/20251-06TPLE004-22TIF0323?accord_pertemuan=PERTEMUAN_3",
-        "deadline"  : "[2025-11-19, 23:59:59]"
+        "deadline"  : "[2025-09-19, 23:59:59]"
     },
 
     "mk.3": {
@@ -41,7 +41,7 @@
         "sks"       : "3",
         "jadwal"    : "Offline.Online",
         "link"      : "https://mentari.unpam.ac.id/u-courses/20251-06TPLE004-22TIF0353?accord_pertemuan=PERTEMUAN_3",
-        "deadline"  : "[2025-11-19, 23:59:59]"
+        "deadline"  : "[2025-09-19, 23:59:59]"
     },
 
     "mk.4": {
@@ -51,7 +51,7 @@
         "sks"       : "2",
         "jadwal"    : "Offline",
         "link"      : "https://mentari.unpam.ac.id/u-courses/20251-06TPLE004-22TIF2012?accord_pertemuan=PERTEMUAN_2",
-        "deadline"  : "[2025-11-19, 23:59:59]"
+        "deadline"  : "[2025-09-19, 23:59:59]"
     },
 
     "mk.5": {
@@ -61,7 +61,7 @@
         "sks"       : "2",
         "jadwal"    : "Online",
         "link"      : "https://mentari.unpam.ac.id/u-courses/20251-06TPLE004-22TIF0332?accord_pertemuan=PERTEMUAN_2",
-        "deadline"  : "[2025-11-19, 23:59:59]"
+        "deadline"  : "[2025-09-19, 23:59:59]"
     },
     
     "mk.6": {
@@ -71,7 +71,7 @@
         "sks"       : "3",
         "jadwal"    : "Online",
         "link"      : "https://mentari.unpam.ac.id/u-courses/20251-06TPLE004-22TIF0363?accord_pertemuan=PERTEMUAN_2",
-        "deadline"  : "[2025-11-19, 23:59:59]"
+        "deadline"  : "[2025-09-19, 23:59:59]"
     },
 
     "mk.7": {
@@ -81,7 +81,7 @@
         "sks"       : "3",
         "jadwal"    : "Online",
         "link"      : "https://mentari.unpam.ac.id/u-courses/20251-06TPLE004-22TIF0443?accord_pertemuan=PERTEMUAN_2",
-        "deadline"  : "[2025-11-19, 23:59:59]"
+        "deadline"  : "[2025-09-19, 23:59:59]"
     },
 
     "mk.8": {
@@ -91,7 +91,7 @@
         "sks"       : "2",
         "jadwal"    : "Online",
         "link"      : "https://mentari.unpam.ac.id/u-courses/20251-06TPLE004-22TIF0342?accord_pertemuan=PERTEMUAN_2",
-        "deadline"  : "[2025-11-19, 23:59:59]"
+        "deadline"  : "[2025-09-19, 23:59:59]"
     },
 
 
@@ -128,7 +128,7 @@
         "namatugas" : "Project Assembler [PERSIAPAN]",
         "deskripsi" : "Buat Kelompok sebanyak jumlah pertemuan, informasi tugas lebih lanjut menyusul.",
         "cara"      : "Bentuk Kelompok dengan teman",
-        "deadline"  : "2025-11-19, 23:59:59"
+        "deadline"  : "2025-09-19, 23:59:59"
     },
 
     "tugas.2": {
@@ -207,4 +207,5 @@
     }
 
 }
+
 
