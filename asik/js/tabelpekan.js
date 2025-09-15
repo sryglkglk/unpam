@@ -55,12 +55,15 @@
                       const hariArr = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', "Jum'at", 'Sabtu'];
                       const hari = hariArr[dateObj.getDay()];
                       deadlineRaw = `<br><small>${hari}, ${tgl[2]}-${tgl[1]}-${tgl[0]}, ${jamMenit}</small>`;
+                    } else {
+                      // Jika format deadline sembarang, tampilkan apa adanya
+                      deadlineText = mk.deadline;
+                      deadlineRaw = '';
                     }
                   } else {
                     // Jika data deadline tidak diisi
                     deadlineText = 'data tidak tersedia';
-                  }
-                  const tr = document.createElement('tr');        tr.innerHTML = `
+                  }        const tr = document.createElement('tr');        tr.innerHTML = `
                   <td class="align-middle">${mk.alias || ''}</td>
                   <td class="align-middle">${mk.judul || ''}<br><small>${mk.dosen || ''}</small></td>
                   <td class="text-center align-middle">${mk.sks || ''}</td>
