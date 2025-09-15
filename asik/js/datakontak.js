@@ -13,7 +13,7 @@ fetch('./data.json')
       ketuaWhatsappLink = `<a href="https://wa.me/${hp}" target="_blank">Chat WhatsApp</a>`;
     }
     ketuaDiv.innerHTML = `
-      <p><strong>Ketua Kelas:<br></strong> ${ketua.nama || ''} (${ketua.nim || ''})<br>
+      <p><strong>Kang Atmin:<br></strong> ${ketua.nama || ''} (${ketua.nim || ''})<br>
       <span style="user-select:all;">${ketua.no_hp || ''}</span>
       ${ketuaWhatsappLink ? `<br><a href="https://wa.me/${ketua.no_hp ? (ketua.no_hp.replace(/\D/g, '').replace(/^0/, '62').replace(/^(?!62)/, '62')) : ''}" target="_blank" style="color:#25D366;">Chat WhatsApp</a>` : ''}
       ${ketua.email ? `<br><a href="mailto:${ketua.email}" style="color:#e75480;">${ketua.email}</a>` : ''}
