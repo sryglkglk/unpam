@@ -19,7 +19,7 @@
         "sks"       : "2",
         "jadwal"    : "Offline",
         "link"      : "https://mentari.unpam.ac.id/u-courses/20251-06TPLE004-22TIF3012?accord_pertemuan=PERTEMUAN_2",
-        "deadline"  : "[2025-09-19, 23:59:59]",
+        "deadline"  : "offline only",
         "_komentar" : "Format deadline: [YYYY-MM-DD, HH:MM:SS] - Contoh: [2025-07-02, 23:59:59]"
 
     },
@@ -51,7 +51,7 @@
         "sks"       : "2",
         "jadwal"    : "Offline",
         "link"      : "https://mentari.unpam.ac.id/u-courses/20251-06TPLE004-22TIF2012?accord_pertemuan=PERTEMUAN_2",
-        "deadline"  : "[2025-09-19, 23:59:59]"
+        "deadline"  : "offline only"
     },
 
     "mk.5": {
@@ -207,5 +207,6 @@
     }
 
 }
+
 
 
