@@ -1,8 +1,8 @@
 {
-    "pekan_ini": "II",
+    "pekan_ini": "III",
 
-    "pertemuan_2sks" : "P2",
-    "pertemuan_3sks" : "P2.P3",
+    "pertemuan_2sks" : "P3",
+    "pertemuan_3sks" : "P4",
 
     "ketua": {
         "nama"      : "data tidak tersedia",
@@ -18,7 +18,7 @@
         "dosen"     : "Ir. BODI SANTOSO, M.T.",
         "sks"       : "2",
         "jadwal"    : "Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20251-06TPLE004-22TIF3012?accord_pertemuan=PERTEMUAN_2",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20251-06TPLE004-22TIF3012?accord_pertemuan=PERTEMUAN_3",
         "deadline"  : "offline only",
         "_komentar" : "Format deadline: [YYYY-MM-DD, HH:MM:SS] - Contoh: [2025-07-02, 23:59:59]"
 
@@ -29,9 +29,9 @@
         "alias"     : "RPL",
         "dosen"     : "NASRUL HIDAYAH, S.Kom., M.Kom.",
         "sks"       : "3",
-        "jadwal"    : "Offline.Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20251-06TPLE004-22TIF0323?accord_pertemuan=PERTEMUAN_3",
-        "deadline"  : "[2025-09-19, 23:59:59]"
+        "jadwal"    : "Offline",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20251-06TPLE004-22TIF0323?accord_pertemuan=PERTEMUAN_4",
+        "deadline"  : "offline only"
     },
 
     "mk.3": {
@@ -39,9 +39,9 @@
         "alias"     : "PRG-II",
         "dosen"     : "SEPTA, S.Kom., M.Kom.",
         "sks"       : "3",
-        "jadwal"    : "Offline.Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20251-06TPLE004-22TIF0353?accord_pertemuan=PERTEMUAN_3",
-        "deadline"  : "[2025-09-19, 23:59:59]"
+        "jadwal"    : "Offline",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20251-06TPLE004-22TIF0353?accord_pertemuan=PERTEMUAN_4",
+        "deadline"  : "offline only"
     },
 
     "mk.4": {
@@ -50,7 +50,7 @@
         "dosen"     : "MEIDY FAJAR WAHYU, S.T., M.Kom.",
         "sks"       : "2",
         "jadwal"    : "Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20251-06TPLE004-22TIF2012?accord_pertemuan=PERTEMUAN_2",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20251-06TPLE004-22TIF2012?accord_pertemuan=PERTEMUAN_3",
         "deadline"  : "offline only"
     },
 
@@ -60,18 +60,18 @@
         "dosen"     : "MAULANA ARDHIANSYAH, S.Kom., M.Kom.",
         "sks"       : "2",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20251-06TPLE004-22TIF0332?accord_pertemuan=PERTEMUAN_2",
-        "deadline"  : "[2025-09-19, 23:59:59]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20251-06TPLE004-22TIF0332?accord_pertemuan=PERTEMUAN_3",
+        "deadline"  : "[2025-09-26, 23:59:59]"
     },
     
     "mk.6": {
         "judul"     : "Basis Data II",
-        "alias"     : "BD-ii",
+        "alias"     : "BD-II",
         "dosen"     : "YONO CAHYONO, S.Kom., M.Kom.",
         "sks"       : "3",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20251-06TPLE004-22TIF0363?accord_pertemuan=PERTEMUAN_2",
-        "deadline"  : "[2025-09-19, 23:59:59]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20251-06TPLE004-22TIF0363?accord_pertemuan=PERTEMUAN_4",
+        "deadline"  : "[2025-09-26, 23:59:59]"
     },
 
     "mk.7": {
@@ -80,8 +80,8 @@
         "dosen"     : "FARIDA NURLAILA, S.Kom., M.Kom.",
         "sks"       : "3",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20251-06TPLE004-22TIF0443?accord_pertemuan=PERTEMUAN_2",
-        "deadline"  : "[2025-09-19, 23:59:59]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20251-06TPLE004-22TIF0443?accord_pertemuan=PERTEMUAN_4",
+        "deadline"  : "[2025-09-26, 23:59:59]"
     },
 
     "mk.8": {
@@ -90,8 +90,8 @@
         "dosen"     : "CENDRA HARMON, S.Kom., M.Kom.",
         "sks"       : "2",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20251-06TPLE004-22TIF0342?accord_pertemuan=PERTEMUAN_2",
-        "deadline"  : "[2025-09-19, 23:59:59]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20251-06TPLE004-22TIF0342?accord_pertemuan=PERTEMUAN_3",
+        "deadline"  : "[2025-09-26, 23:59:59]"
     },
 
 
@@ -105,7 +105,7 @@
 
     "info.2": {
         "judul"     : "Software WAJIB",
-        "isi"       : "Bahasa Assember (Teknik Kompilasi), NetBeans 25 + JDK 21 (Pemrograman II)",
+        "isi"       : "Bahasa Assember (Teknik Kompilasi) + ANTLR (Opsional), NetBeans 25 + JDK 21 (Pemrograman II)",
         "realease"  : "Minggu, 2025-09-14"
     },
 
@@ -119,6 +119,12 @@
         "judul"     : "TIDAK ADA JAM ISTIRAHAT",
         "isi"       : "Matkul Terakhir Sistem Pendukung Keputusan (SPK) digeser ke jam istirahat, jadi TIDAK ADA JAM ISTIRAHAT. Istirahat sekalian pulang.",
         "realease"  : "Minggu, 2025-09-14"
+    },
+
+        "info.5": {
+        "judul"     : "PRESENTASI KELOMPOK PEKAN INI",
+        "isi"       : "Kelompok II - Teknik Kompilasi - Klasifikasi Grammar - Jam Pertama",
+        "realease"  : "Senin, 2025-09-22"
     },
 
 
@@ -207,6 +213,7 @@
     }
 
 }
+
 
 
 
