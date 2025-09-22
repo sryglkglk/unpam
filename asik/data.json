@@ -131,10 +131,10 @@
 
     "tugas.1": {
         "id_mk"     : "mk.1",
-        "namatugas" : "Project Assembler [PERSIAPAN]",
-        "deskripsi" : "Buat Kelompok sebanyak jumlah pertemuan, informasi tugas lebih lanjut menyusul.",
-        "cara"      : "Bentuk Kelompok dengan teman",
-        "deadline"  : "2025-09-19, 23:59:59"
+        "namatugas" : "Presentasi Kelompok 2",
+        "deskripsi" : "Tugas Mingguan Presentasi Kelompok",
+        "cara"      : "Kelompok 2 akan membawakan presentasi mata kuliah Teknik Kompilasi",
+        "deadline"  : "2025-09-27, 09:20:00"
     },
 
     "tugas.2": {
@@ -213,6 +213,7 @@
     }
 
 }
+
 
 
 
