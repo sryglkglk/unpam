@@ -7,8 +7,8 @@
     "ketua": {
         "nama"      : "data tidak tersedia",
         "nim"       : "data tidak tersedia",
-        "no_hp"     : "data tidak tersedia",
-        "link"      : "",
+        "no_hp"     : "085156132689",
+        "link"      : "https://wa.me/085156132689",
         "email"     : "data tidak tersedia"
     },
 
@@ -196,7 +196,7 @@
         "id_mk"     : "mk.7",
         "no_hp"     : "0822-1330-3751",
         "email"     : "someone@email.com",
-        "link"      : "https://wa.me/6282213303751"
+        "link"      : "https://wa.me/"
     },
 
     "kontak.8": {
@@ -213,6 +213,7 @@
     }
 
 }
+
 
 
 
