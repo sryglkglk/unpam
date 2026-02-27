@@ -19,7 +19,7 @@
         "sks"       : "2",
         "jadwal"    : "Offline",
         "link"      : "",
-        "deadline"  : "offline",
+        "deadline"  : "Offline",
         "_komentar" : "Format deadline: [YYYY-MM-DD, HH:MM:SS] - Contoh: [2025-07-02, 23:59:59]"
 
     },
@@ -31,7 +31,7 @@
         "sks"       : "3",
         "jadwal"    : "Offline",
         "link"      : "",
-        "deadline"  : "offline"
+        "deadline"  : "Offline"
     },
 
     "mk.3": {
@@ -41,7 +41,7 @@
         "sks"       : "2",
         "jadwal"    : "Offline",
         "link"      : "",
-        "deadline"  : "offline"
+        "deadline"  : "Offline"
     },
 
     "mk.4": {
@@ -51,7 +51,7 @@
         "sks"       : "2",
         "jadwal"    : "Offline",
         "link"      : "",
-        "deadline"  : "offline"
+        "deadline"  : "Offline"
     },
 
     "mk.5": {
@@ -188,7 +188,7 @@
         "id_mk"     : "mk.7",
         "no_hp"     : "0822-3366-2194",
         "email"     : "dosen02337@unpam.ac.id",
-        "link"      : "https://wa.me/6282233662194"
+        "link"      : "https://wa.me/0822-3366-2194"
     },
 
     "kontak.8": {
@@ -206,8 +206,6 @@
     }
 
 }
-
-
 
 
 

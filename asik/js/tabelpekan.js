@@ -63,13 +63,42 @@
                   } else {
                     // Jika data deadline tidak diisi
                     deadlineText = 'data tidak tersedia';
-                  }        const tr = document.createElement('tr');        tr.innerHTML = `
-                  <td class="align-middle">${mk.alias || ''}</td>
-                  <td class="align-middle">${mk.judul || ''}<br><small>${mk.dosen || ''}</small></td>
-                  <td class="text-center align-middle">${mk.sks || ''}</td>
-                  <td>${jadwal}</td>
-                  <td class="text-center align-middle">${deadlineText}${deadlineRaw}</td>
-                  <td class="text-center align-middle">
+                  }
+                  
+                //   const tr = document.createElement('tr');
+                //   tr.innerHTML = `
+                //   <td class="align-middle">${mk.alias || ''}</td>
+                //   <td class="align-middle">${mk.judul || ''}<br><small>${mk.dosen || ''}</small></td>
+                //   <td class="text-center align-middle">${mk.sks || ''}</td>
+                //   <td>${jadwal}</td>
+                //   <td class="text-center align-middle">${deadlineText}${deadlineRaw}</td>
+                //   <td class="text-center align-middle">
+                //     <a href="${mk.link || '#'}" class="btn btn-info btn-sm" target="_blank">Buka</a>
+                //   </td>
+                // `;
+
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                  <td data-label="Matkul" class="align-middle">${mk.alias || ''}</td>
+
+                  <td data-label="Details" class="align-middle">
+                    ${mk.judul || ''}<br>
+                    <small>${mk.dosen || ''}</small>
+                  </td>
+
+                  <td data-label="SKS" align-middle">
+                    ${mk.sks || ''}
+                  </td>
+
+                  <td data-label="Jadwal">
+                    ${jadwal}
+                  </td>
+
+                  <td data-label="Deadline" align-middle">
+                    ${deadlineText}${deadlineRaw}
+                  </td>
+
+                  <td data-label="Link" align-middle">
                     <a href="${mk.link || '#'}" class="btn btn-info btn-sm" target="_blank">Buka</a>
                   </td>
                 `;
