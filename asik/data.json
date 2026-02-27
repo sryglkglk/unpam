@@ -199,10 +199,18 @@
     },
 
 
+
+
     "info_umum.1": {
         "judul"     : "Males Ngisi Info",
-        "isi"       : "Intinya jangan lupa bayaran, daftar Ujikom dan Toefl sesuai kesanggupan, sisanya bisa dibicarakan",
+        "isi"       : "Intinya jangan lupa bayaran, daftar Ujikom dan Toefl sesuai kesanggupan, sisanya bisa dibicarakan.",
         "realease"  : "Kamis, 2026-02-26"
+    },
+
+        "info_umum.2": {
+        "judul"     : "Batas Pembayaran UTS",
+        "isi"       : "29 April 2026 harus sudah melunasi: Angsuran 2, Angsuran 3 dan UTS",
+        "realease"  : "Jum'at, 2026-02-27"
     }
 
 }
