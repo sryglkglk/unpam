@@ -75,8 +75,8 @@
     },
 
     "mk.7": {
-        "judul"     : "Manajemen Proyek Perangkat Lunak",
-        "alias"     : "MPPL",
+        "judul"     : "Manajemen Proyek Informatika",
+        "alias"     : "MPI",
         "dosen"     : "NANA HERMANSYAH, S.T., M.M., M.Si.",
         "sks"       : "2",
         "jadwal"    : "Online",
@@ -214,6 +214,7 @@
     }
 
 }
+
 
 
 
