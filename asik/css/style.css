@@ -148,3 +148,173 @@ ul {
     padding: 0;
   padding-left: 0 !important;
 }
+
+/* ============================= */
+/* RESPONSIVE TABLE → CARD MODE */
+/* ============================= */
+
+#matkul-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+}
+
+/* Biar di desktop tetap normal */
+#matkul-table th,
+#matkul-table td {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+
+
+/* ============================= */
+/* MOBILE MODE */
+/* ============================= */
+@media (max-width: 600px) {
+
+#periode-pekan strong {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.4;
+}
+
+#periode-pekan .periode-label {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+  #matkul-table thead {
+    display: none;
+  }
+
+  #matkul-table,
+  #matkul-table tbody,
+  #matkul-table tr,
+  #matkul-table td {
+    display: block;
+    width: 100%;
+  }
+
+  /* CARD FLAT */
+  #matkul-table tr {
+    margin-bottom: 16px;
+    padding: 16px;
+    background: #ffffff;
+    color: #1a1a1a;
+    border-radius: 14px;
+    border: 1px solid rgba(0,0,0,0.08);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  }
+
+  /* SETIAP FIELD JADI GRID 2 KOLOM */
+  #matkul-table td {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    gap: 8px;
+    padding: 8px 0;
+    align-items: start;
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+    text-align: left !important; /* semua align kiri */
+  }
+
+  #matkul-table td:last-child {
+    border-bottom: none;
+  }
+
+  /* LABEL */
+  #matkul-table td::before {
+    content: attr(data-label);
+    font-weight: 600;
+    color: #1d4ed8;
+    text-align: left;
+  }
+
+  /* ============================= */
+  /* KHUSUS DETAILS (MERGE STYLE)  */
+  /* ============================= */
+
+  /* paksa konten jadi 2 baris */
+  #matkul-table td[data-label="Details"] {
+    grid-template-rows: auto auto;
+  }
+
+  /* judul matkul (baris 1) */
+  #matkul-table td[data-label="Details"] > *:first-child {
+    grid-column: 2;
+  }
+
+  /* dosen (baris 2) */
+  #matkul-table td[data-label="Details"] > small {
+    grid-column: 2;
+    margin-top: -4px;
+    color: #666;
+    font-size: 12px;
+  }
+
+  /* supaya label cuma muncul di baris pertama */
+  #matkul-table td[data-label="Details"]::before {
+    grid-row: 1 / span 2;
+    align-self: start;
+  }
+
+/* ============================= */
+/* KHUSUS DEADLINE (MERGE STYLE) */
+/* ============================= */
+
+/* paksa konten jadi 2 baris */
+#matkul-table td[data-label="Deadline"] {
+grid-template-rows: auto auto;
+}
+
+/* baris 1 deadline utama */
+#matkul-table td[data-label="Deadline"] > *:first-child {
+grid-column: 2;
+}
+
+/* baris 2 (misalnya keterangan tambahan) */
+#matkul-table td[data-label="Deadline"] > small {
+grid-column: 2;
+margin-top: -4px;
+color: #666;
+font-size: 12px;
+}
+
+/* label cuma muncul di baris pertama */
+#matkul-table td[data-label="Deadline"]::before {
+grid-row: 1 / span 2;
+align-self: start;
+}
+
+  /* ============================= */
+
+  /* MATKUL JADI JUDUL CARD */
+  #matkul-table td[data-label="Matkul"] {
+    font-size: 17px;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    margin-bottom: 4px;
+  }
+
+  /* TOMBOL FULL WIDTH */
+  #matkul-table td[data-label="Link"] a.btn {
+    width: 100%;
+    margin-top: 8px;
+    border-radius: 8px;
+    font-weight: 600;
+  }
+
+}
+
+/* Center kolom tertentu saat mode tabel (desktop) */
+#matkul-table th:nth-child(3),
+#matkul-table th:nth-child(4),
+#matkul-table th:nth-child(5),
+#matkul-table th:nth-child(6),
+#matkul-table td:nth-child(3),
+#matkul-table td:nth-child(4),
+#matkul-table td:nth-child(5),
+#matkul-table td:nth-child(6) {
+    text-align: center;
+}
