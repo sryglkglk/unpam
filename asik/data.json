@@ -7,17 +7,20 @@
         "email"     : "sry.kuliah.unpam@gmail.com"
     },
 
-    "pekan_ini": "II",
-    "pertemuan_2sks" : "P2",
-    "pertemuan_3sks" : "P2, P3",
 
+    
+    "pekan_ini": "I",
+    "pertemuan_2sks" : "P1",
+    "pertemuan_3sks" : "P1",
+
+    
     "mk.1": {
         "judul"     : "Keamanan Komputer",
         "alias"     : "KamKom",
         "dosen"     : "SARMAN, S.Kom., M.Kom.",
         "sks"       : "2",
         "jadwal"    : "Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0382?accord_pertemuan=PERTEMUAN_2",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0382?accord_pertemuan=PERTEMUAN_1",
         "deadline"  : "Offline",
         "_komentar" : "Format deadline: [YYYY-MM-DD, HH:MM:SS] - Contoh: [2025-07-02, 23:59:59]"
 
@@ -28,8 +31,8 @@
         "alias"     : "Web 2",
         "dosen"     : "SONASA RINUSANTORO, S.Kom., M.A.",
         "sks"       : "3",
-        "jadwal"    : "Offline, Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0433?accord_pertemuan=PERTEMUAN_2",
+        "jadwal"    : "Offline",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0433?accord_pertemuan=PERTEMUAN_1",
         "deadline"  : "Offline"
     },
 
@@ -39,7 +42,7 @@
         "dosen"     : "JAKA SUTRESNA, S.Kom., M.Kom.",
         "sks"       : "2",
         "jadwal"    : "Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0392?accord_pertemuan=PERTEMUAN_2",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0392?accord_pertemuan=PERTEMUAN_1",
         "deadline"  : "Offline"
     },
 
@@ -49,7 +52,7 @@
         "dosen"     : "EKO SUTONO, S.T., M.Kom.",
         "sks"       : "2",
         "jadwal"    : "Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0402?accord_pertemuan=PERTEMUAN_2",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0402?accord_pertemuan=PERTEMUAN_1",
         "deadline"  : "Offline"
     },
 
@@ -59,7 +62,7 @@
         "dosen"     : "ANIQ ASTOFA, S.Kom., M.Kom.",
         "sks"       : "2",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0412?accord_pertemuan=PERTEMUAN_2",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0412?accord_pertemuan=PERTEMUAN_1",
         "deadline"  : "[2026-03-07, 23:59:59]"
     },
     
@@ -69,7 +72,7 @@
         "dosen"     : "Dr. SHOLIHIN, S.Kom., M.M.",
         "sks"       : "2",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0402?accord_pertemuan=PERTEMUAN_2",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0402?accord_pertemuan=PERTEMUAN_1",
         "deadline"  : "[2026-03-07, 23:59:59]"
     },
 
@@ -79,7 +82,7 @@
         "dosen"     : "NANA HERMANSYAH, S.T., M.M.S.I.",
         "sks"       : "2",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0312?accord_pertemuan=PERTEMUAN_2",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0312?accord_pertemuan=PERTEMUAN_1",
         "deadline"  : "[2026-03-07, 23:59:59]"
     },
 
@@ -89,9 +92,11 @@
         "dosen"     : "NANANG, S.Kom., M.Kom.",
         "sks"       : "3",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0373?accord_pertemuan=PERTEMUAN_2",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0373?accord_pertemuan=PERTEMUAN_1",
         "deadline"  : "[2026-03-07, 23:59:59]"
     },
+
+
 
 
 
@@ -213,6 +218,7 @@
     }
 
 }
+
 
 
 
