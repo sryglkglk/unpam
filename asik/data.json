@@ -115,17 +115,13 @@
 
 "info.3": {
     "judul"     : "Grup WA Matkul",
-    "isi"       : "<ol>
-<li>Jaringan Nirkabel<br>
+    "isi"       : "<ol><li>Jaringan Nirkabel<br>
 <a href='https://chat.whatsapp.com/LT79OuFU8wz5pVCV7PsK3H?mode=hq2tswa' target='_blank' style='color: #25D366; text-decoration: none;'>Gabung WhatsApp</a>
-</li>
-
-<li>Folder Tugas & Materi<br>
+</li><li>Folder Tugas & Materi<br>
 <a href='https://drive.google.com/drive/folders/1HV13jOtrHVjZGIO2NE57TCmvIvKgmC-X' target='_blank' style='color: cyan; text-decoration: none;'>07TPLE004 Folder</a>
-</li>
-</ol>",
+</li></ol>",
     "realease"  : "Minggu, 2026-03-01"
-}
+},
 
 
 
