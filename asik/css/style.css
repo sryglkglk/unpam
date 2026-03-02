@@ -149,10 +149,6 @@ ul {
   padding-left: 0 !important;
 }
 
-.bullet-list {
-  list-style-type: disc;
-  padding-left: 20px;
-}
 
 /* ============================= */
 /* RESPONSIVE TABLE → CARD MODE */
