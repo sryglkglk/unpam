@@ -221,7 +221,7 @@
 
         "info_umum.2": {
         "judul"     : "Batas Pembayaran UTS",
-        "isi"       : ""<p><strong>29 April 2026</strong><br>harus sudah melunasi:</p><ul><li>Angsuran 2</li><li>Angsuran 3</li><li>UTS</li></ul>",
+        "isi"       : "<p><strong>29 April 2026</strong><br>harus sudah melunasi:</p><ul><li>Angsuran 2</li><li>Angsuran 3</li><li>UTS</li></ul>",
         "realease"  : "Jum'at, 2026-02-27"
     }
 
