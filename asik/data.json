@@ -223,9 +223,16 @@
         "judul"     : "Batas Pembayaran UTS",
         "isi"       : "<strong>29 April 2026</strong><br>harus sudah melunasi:<ol><li>Angsuran 2</li><li>Angsuran 3</li><li>UTS</li></ol>",
         "realease"  : "Jum'at, 2026-02-27"
+    },
+
+        "info_umum.3": {
+        "judul"     : "Pendaftaran Ujikom Gelombang 65",
+        "isi"       : "Jadwal:<br><ol><li>Pendaftaran: 23 Februari - 29 Maret 2026</li><li>Pelatihan: 5 April 2026</li><li>Ujian: 13 - 28 April 2026</li></ol>",
+        "realease"  : "Sabtu, 2026-02-28"
     }
 
 }
+
 
 
 
